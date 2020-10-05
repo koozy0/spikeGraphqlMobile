@@ -77,7 +77,7 @@ const Users = () => {
                   <Text
                     style={styles.friend}
                     key={`friend__${item.id}--${friend.id}`}>
-                    {friend.name} | {friend.email}
+                    {friend.name.toUpperCase()} | {friend.email}
                   </Text>
                 ))}
               </View>
